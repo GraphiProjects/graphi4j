@@ -1,0 +1,18 @@
+{
+  "createCategoryThenPost": {
+    "category": {
+      "__using": "createCategory",
+      "__args": {
+        "params": "$categoryParams"
+      },
+      "post: createPost": {
+        "__args": {
+          "params": {
+            "@spread": "$postParams",
+            "categoryId": "@parent.id"
+          }
+        }
+      }
+    }
+  }
+}

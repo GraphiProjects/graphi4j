@@ -1,0 +1,96 @@
+{
+  "post": [
+    {
+      "id": 1,
+      "title": "Lion City’s ‘first lady of shipping’ continues to lead from front",
+      "body": "Tan Beng Tee, the Maritime and Port Authority of Singapore’s assistant chief executive of development, has been at the forefront of building Singapore into the bustling international maritime centre that it is today.",
+      "authorId": 1,
+      "category": 1,
+      "tags": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "title": "EMAS Offshore avoids Oslo delisting",
+      "body": "White knight BTI, a subsidiary of BakerTechnology, is looking to invest up to $50m in the company in return for a majority stake under a term sheet signed in early December.",
+      "authorId": 1,
+      "category": 1,
+      "tags": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Eastern Pacific Shipping top dog in Singapore",
+      "body": "I believe the accompanying data very much shows that Singapore is a major player in the ship owning industry, coming in at number in ranking by fleet value. This is an incredible success for such a relatively small nation.",
+      "authorId": 2,
+      "category": 1,
+      "tags": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Bounce in Scorpio Tankers stock amid debt questions",
+      "body": "The movement from $1.88 to above $2.39 earlier this week — product tanker peer Ardmore Shipping is up about 7% in the same stretch — comes as market observers struggle to sort the details of the $349m in convertible bonds outstanding on Scorpio Tankers’ 2014 issue.",
+      "authorId": 2,
+      "category": 1,
+      "tags": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Affinity profit inches up despite dip in revenue",
+      "body": "Affinity was set up in 2014 by managing partner Fulford-Smith and is today active across the sale and purchase, newbuilding, dry cargo, tankers, gas and finance markets. It has also moved into the offshore arena.",
+      "authorId": 1,
+      "category": 1,
+      "tags": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "author": [
+    {
+      "id": 1,
+      "firstName": "Abdul",
+      "lastName": "Kaderi"
+    },
+    {
+      "id": 2,
+      "firstName": "Hasan",
+      "lastName": "Ali"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "energy"
+    }
+  ],
+  "tag": [
+    {
+      "id": 1,
+      "name": "oil"
+    },
+    {
+      "id": 2,
+      "name": "coal"
+    },
+    {
+      "id": 3,
+      "name": "gas"
+    }
+  ]
+}

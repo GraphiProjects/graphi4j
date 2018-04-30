@@ -1,0 +1,42 @@
+{
+  "Post": {
+    "id": {
+      "type": "number"
+    },
+    "title": {
+      "type": "string",
+      "nullable": false,
+      "size": [
+        2,
+        128
+      ]
+    },
+    "body": {
+      "type": "string"
+    },
+    "publishedDate": {
+      "type": "string",
+      "dateFormat": "dd/MMM/yyyy hh:mm"
+    },
+    "author": "#Author"
+  },
+  "Author": {
+    "id": {
+      "type": "number"
+    },
+    "firstName": {
+      "type": "string",
+      "size": [
+        2,
+        128
+      ]
+    },
+    "lastName": {
+      "type": "string",
+      "size": [
+        2,
+        128
+      ]
+    }
+  }
+}

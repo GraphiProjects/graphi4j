@@ -1,0 +1,40 @@
+{
+  "savePost": {
+    "params": {
+      "newPostParams": "#Post"
+    },
+    "return": "#Post"
+  },
+  "getPost": {
+    "params": {
+      "id": "#Post.id"
+    },
+    "return": "#Post"
+  },
+  "findPost": {
+    "params": {
+      "postId": "#Post.id",
+      "authorId": "#Author.id",
+      "page": {
+        "type": "page",
+        "nullable": true
+      }
+    },
+    "return": "#Post[]"
+  },
+  "findPostByAuthor": {
+    "params": {
+      "authorId": {
+        "type": "number"
+      }
+    },
+    "return": "#Post"
+  },
+  "findAuthorByPost": {
+    "params": {
+      "postId": "#Post.id",
+      "postTitle": "#Post.title"
+    },
+    "return": "#Author"
+  }
+}

@@ -1,0 +1,8 @@
+.*
+*.ipr
+*.iml
+build
+out
+target
+!.gitignore
+!.editorconfig

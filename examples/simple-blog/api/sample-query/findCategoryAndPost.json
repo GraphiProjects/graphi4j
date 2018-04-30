@@ -1,0 +1,15 @@
+{
+  "category: findCategory": {
+    "args": {
+      "idIn": "$categoryIdList"
+    },
+    "post: findPost": {
+      "args": {
+        "categoryIdIn": "$categoryIdList"
+      }
+    },
+    "@groupBy": {
+      "categoryId": "id"
+    }
+  }
+}
