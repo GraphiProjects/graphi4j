@@ -24,7 +24,7 @@ repositories {
 }
 
 dependencies {
-  compile project(':graphi4j') ?: "graphi4j:graph4j:$graphi4jVersion"
+  compile project(':graphi4j') ?: "graphi4j:graphi4j:$graphi4jVersion"
 
   providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
 }
